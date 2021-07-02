@@ -1,0 +1,40 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  height:100vh;
+  float:right;
+}
+html {
+  scroll-behavior: smooth;
+}
+#HeadSection {
+	background-color: black;
+	width:100vw;
+	height:5vh;
+ 	text-align: right;
+	float:right;
+	position: sticky;
+    top: 0;
+ }
+
+a{
+	color:white;
+	text-decoration: none;
+	margin:10px;
+}
+.SameAttributes {
+  height:100vh;
+}
+ 
+#HomeSection{
+  	background-image:url("images/earth.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size:contain ;
+	background-color:rgba(134,161,144,255);	
+ 
+	
+}
+#ProductsSection{
+ 	background-color:rgba(157,217,217,255);
+}
