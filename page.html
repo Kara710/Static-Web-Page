@@ -5,16 +5,17 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="styles.css">
-	 
+ 
+	
 </head>
 <body>
 
 	
 	<ul class="Nav" id="Navigator">	  
-	  <li><a href="#SPAN1">Contact Us</a></li>
+	  <li><a href="#Condact">Contact Us</a></li>
 	  <li><a href="#Products">Products</a></li>
-	  <li><a href="#News" >News</a></li>
-	  <li><a href="#Home"class="btn active">Home</a></li>
+	  <li><a href="#News">News</a></li>
+	  <li><a href="#Home">Home</a></li>
 	</ul>
 	
 
@@ -44,42 +45,53 @@
 	
 	<div id="Products">
 		<div class="LeftProducts"> </div>
-		<span class="RightProducts">
-		<section>
-			<h3>Atmosphere</h3>
-			<p>
-			Global warming reduces the capacity of the oceans to absorb oxygen. Biomarkers and geologic evidence suggests that oxygen-deprived oceans resulting from high carbon dioxide concentrations may have contributed to the five previous mass extinction events in Earth's history. Geoscientists have found that anaerobic microbes would have thrived in these conditions and produced vast amounts of hydrogen sulfide gas. Hydrogen sulfide is toxic, and its lethality increases with temperature. At a critical threshold, this toxic gas would have been released into the atmosphere, causing plant and animal extinctions both in the ocean and on land. Models suggest that this would also have damaged the ozone layer, exposing life on Earth to harmful levels of UV radiation. Deformities found in fossil spores in Greenland provides evidence that this may have occurred during the Permian extinction event.
-			</p>
-		</section>
-		<section>
-			<h3>Disease</h3>
-			<p>
-			Rising temperatures increase the risk of an epidemic or pandemic. As the climate changes, distributors of infectious diseases such as mosquitoes and ticks spread to new areas and transmit illnesses to regions which may not have experienced them otherwise. Epidemics are also made more likely after severe weather events, such as heavy rainfall or flooding. Food scarcity may lead some communities to a more meat-based diet, which raises the risk of outbreaks of diseases such as ebola. Melting permafrost also threatens to release diseases that have been dormant for many years, as was the case in August 2016.
-			</p>		
-		</section>
-		<section>
-			<h3>Food scarcity</h3>
-			<p>
-			Many plants have a maximum temperature at which they can grow, and climate change may mean that new pests are introduced to areas where it was too cold for them to survive before. Extreme weather events and more frequent droughts will also affect crop production as the Earth approaches and surpasses 2°C (3.6°F) above pre-industrial levels. A global decline in food availability could lead to severe impacts on public health. If the Earth's temperature increases to 2°C above pre-industrial levels by 2050, some models predict that global food availability would be 3.2 percent lower than if no climate change occurred, resulting in an additional 529,000 deaths worldwide.
-			</p>		
-		</section>
-		<section>
-			<h3>Natural disasters</h3>
-			<p>
-			Climate change increases the frequency and intensity of extreme weather events including droughts, storms and flooding. Although it is not possible to determine whether or not a specific natural disaster occurred because of climate change, it is possible to state how much more likely a natural disaster was as a result of climate change.
-			</p>		
-		</section>
+		<span class="CentralProducts ">
+			<p id="Atmo">Atmosphere</p>
+			<p id="Disease">Disease</p>
+			<p id="Food">Food scarcity</p>
+			<p id="Natural">Natural disasters</p>
+			
 		</span>
+		<span  class="RightProducts"><p id="textvisible"> </p></span>
 	</div>
+
+	<script>
+		document.getElementById("Atmo").addEventListener("mouseover", mouseOverAtmo);
+		document.getElementById("Atmo").addEventListener("mouseout", mouseOut);
+		document.getElementById("Disease").addEventListener("mouseover", mouseOverDisease);
+		document.getElementById("Disease").addEventListener("mouseout", mouseOut);
+		document.getElementById("Food").addEventListener("mouseover", mouseOverFood);
+		document.getElementById("Food").addEventListener("mouseout", mouseOut);
+		document.getElementById("Natural").addEventListener("mouseover", mouseOverNatural);
+		document.getElementById("Natural").addEventListener("mouseout", mouseOut);
+
+		function mouseOverAtmo() {
+		  document.getElementById("textvisible").innerHTML = "Global warming reduces the capacity of the oceans to absorb oxygen. Biomarkers and geologic evidence suggests that oxygen-deprived oceans resulting from high carbon dioxide concentrations may have contributed to the five previous mass extinction events in Earth's history. Geoscientists have found that anaerobic microbes would have thrived in these conditions and produced vast amounts of hydrogen sulfide gas. Hydrogen sulfide is toxic, and its lethality increases with temperature. At a critical threshold, this toxic gas would have been released into the atmosphere, causing plant and animal extinctions both in the ocean and on land. Models suggest that this would also have damaged the ozone layer, exposing life on Earth to harmful levels of UV radiation. Deformities found in fossil spores in Greenland provides evidence that this may have occurred during the Permian extinction event. At the end of the Paleocene and Triassic eras, mass extinctions occurred at carbon dioxide concentrations of around 1,000 ppm. If these concentrations were reached again in the future, either as a result of anthropogenic or naturally occurring greenhouse gas emissions, it is possible that such an event could be repeated.";
+		 
+		}
+		function mouseOverDisease() {
+		  document.getElementById("textvisible").innerHTML = "Rising temperatures increase the risk of an epidemic or pandemic. As the climate changes, distributors of infectious diseases such as mosquitoes and ticks spread to new areas and transmit illnesses to regions which may not have experienced them otherwise. Epidemics are also made more likely after severe weather events, such as heavy rainfall or flooding. Food scarcity may lead some communities to a more meat-based diet, which raises the risk of outbreaks of diseases such as ebola. Melting permafrost also threatens to release diseases that have been dormant for many years, as was the case in August 2016.";
+		}
+		function mouseOverFood() {
+		  document.getElementById("textvisible").innerHTML = "Many plants have a maximum temperature at which they can grow, and climate change may mean that new pests are introduced to areas where it was too cold for them to survive before. Extreme weather events and more frequent droughts will also affect crop production as the Earth approaches and surpasses 2°C (3.6°F) above pre-industrial levels. A global decline in food availability could lead to severe impacts on public health. If the Earth's temperature increases to 2°C above pre-industrial levels by 2050, some models predict that global food availability would be 3.2 percent lower than if no climate change occurred, resulting in an additional 529,000 deaths worldwide.";
+		}
+		function mouseOverNatural() {
+		  document.getElementById("textvisible").innerHTML = "Climate change increases the frequency and intensity of extreme weather events including droughts, storms and flooding. Although it is not possible to determine whether or not a specific natural disaster occurred because of climate change, it is possible to state how much more likely a natural disaster was as a result of climate change.";
+		}
+
+		function mouseOut() {
+		  document.getElementById("textvisible").innerHTML = " ";
+		}
+	</script>
 	
-	<div class="Contact">
+	<div class="Contact" id="Condact">
 		
 		<p>KEEP IN TOUCH!</p>
-		<div id="SPAN1">		
-			<a href="#" class="fa fa-facebook"></a>
-			<a href="#" class="fa fa-twitter"></a> 
-			<a href="#" class="fa fa-linkedin"></a> 
-		<div>
+		 		
+		<a href="#" class="fa fa-facebook"></a>
+		<a href="#" class="fa fa-twitter"></a> 
+		<a href="#" class="fa fa-linkedin"></a> 
+		 
 	</div>
 	
 	
