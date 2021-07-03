@@ -1,3 +1,3 @@
-This is Static Web site for education purpose
+This is Static Web site for education purposes
 <br>
-<a href="https://kara710.github.io">Click me to watch</a>
+<h1><a href="https://kara710.github.io">Click me to watch</a><h1>
