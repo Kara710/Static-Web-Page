@@ -29,4 +29,18 @@ Steps:<br>
 |auth_password=********|
 |hostname=localhost|
 
+4. Make changes on php.in file<br>
+|Change and enable those atributes|Unable those atributes|
+|---|----|
+|sendmail_path ="C:\wamp64\sendmail\sendmail.exe -t -i"|; For Win32 only.|
+||; http://php.net/smtp|
+|;SMTP = localhost|
+||; http://php.net/smtp-port|
+||;smtp_port = 25|
+||; http://php.net/sendmail-from|
+||;sendmail_from ="admin@wampserver.invalid"|
+
+
+
+
 <h1><a href="https://kara710.github.io">Click here</a><h1>
