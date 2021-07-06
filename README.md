@@ -29,7 +29,8 @@ Steps:<br>
 |auth_password=********|
 |hostname=localhost|
 
-4. Make changes on php.in file<br>
+4. Make changes on php.ini file<br>
+To find the right file it is better to open it via: click on wamp -> mouseover the PHP icon and there you will find the right php.ini.
 
 |Change and Enable those attributes|Unenable those atributes|
 |-----|----|
