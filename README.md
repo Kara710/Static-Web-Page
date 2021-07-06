@@ -30,6 +30,7 @@ Steps:<br>
 |hostname=localhost|
 
 4. Make changes on php.in file<br>
+
 |Change and Enable those attributes|Unenable those atributes|
 |-----|----|
 |sendmail_path ="C:\wamp64\sendmail\sendmail.exe -t -i"|;SMTP = localhost
