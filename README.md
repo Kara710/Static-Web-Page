@@ -10,7 +10,8 @@ Then follow the path: Credencials > Create Credencials > Application restriction
 
 
 <h3>-Keys from google for recaptcha</h3>
-Follow the link:https://www.google.com/recaptcha/admin/create and at the Domain field add "Localhost". Those keys will use by the web page and on the Server side on PHP.  
+Follow the link:https://www.google.com/recaptcha/admin/create and at the Domain field add "Localhost". Those keys will use by the web page and on the Server side on PHP.<br>
+It is important to move your html and php files on "C:\wamp64\www" , otherwise it will not recognize the key and it will show this error <Invalid domain for site key><br>
 
 <h3>-Email From on PHP that works with WAMP with SMTP local server enable</h3>
 Steps:<br>
@@ -37,6 +38,8 @@ To find the right file it is better to open it via: click on wamp -> mouseover t
 |sendmail_path ="C:\wamp64\sendmail\sendmail.exe -t -i"|;SMTP = localhost
 | |;smtp_port = 25
 | |;sendmail_from ="admin@wampserver.invalid"
+
+5.It is important to move your php file on "C:\wamp64\www" , otherwise it will not work.
  
 
 <h1><a href="https://kara710.github.io">Click here</a><h1>
