@@ -1,5 +1,7 @@
 This is Static Web site for education purposes. It includes: <br>
 The <b>recaptcha</b> and the <b>email form</b> work properly only with a server (example WAMP).
+
+<h1><a href="https://kara710.github.io">Click here</a><h1>
 <hr>
 <h3>- API for google maps</h3> 
 If you have acount on Google API then follow the bellow link:
@@ -42,4 +44,3 @@ To find the right file it is better to open it via: click on wamp -> mouseover t
 5.It is important to move your php file on "C:\wamp64\www" , otherwise it will not work.
  
 
-<h1><a href="https://kara710.github.io">Click here</a><h1>
