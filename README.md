@@ -42,7 +42,7 @@ To find the right file it is better to open it via: click on wamp -> mouseover t
 | |;smtp_port = 25
 | |;sendmail_from ="admin@wampserver.invalid"
 
-5.It is important to move your php file on "C:\wamp64\www" , otherwise it will not work.
+5.It is important to move your php file on "C:\wamp64\www" , otherwise it will not work.<br>
 6.Make sure that your server have enable ssl and sockets. You will find them on PHP extentions.
  
 
