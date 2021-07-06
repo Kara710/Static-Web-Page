@@ -13,13 +13,13 @@ Then follow the path: Credentials > Create Credentials > Application restriction
 
 
 <h3>-Keys from google for recaptcha</h3>
-Follow the link:https://www.google.com/recaptcha/admin/create and at the Domain field add "Localhost". Those keys will use by the web page and on the Server side on PHP.<br>
+Follow the link:https://www.google.com/recaptcha/admin/create and at the Domain field add "localhost". Those keys will be used by the web page and PHP script.<br>
 It is important to move your html and php files on "C:\wamp64\www" , otherwise it will not recognize the key and it will show this error "Invalid domain for site key"<br>
 
-<h3>-Email From is on PHP and works with WAMP - SMTP local server enable</h3>
+<h3>-Email Form is a compination of HTML and PHP code and runs only with an SMTP server</h3>
 Steps:<br>
 1. Create a folder "sendmail" at the path "C:\wamp64\".<br>
-2. Download "sendmail.zip" from https://www.glob.com.au/sendmail/ and extract in on the file your created above.<br>
+2. Download "sendmail.zip" from https://www.glob.com.au/sendmail/ and extract it to the folder your created above.<br>
 3. Make changes on sendmail.ini file <br>
 
 |Change and Enable those attributes|Unenable those atributes|
