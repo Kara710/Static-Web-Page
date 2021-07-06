@@ -44,7 +44,7 @@ To find the right file : click on wamp -> mouseover the PHP icon and there you w
 
 5.It is important to move your php file on "C:\wamp64\www" , otherwise it will not work.<br>
 6.Make sure that your server has enabled the PHP extentions  openssl and sockets.
-<img src="extensions.png">
+![alt text] (https://github.com/Kara710/Static-Web-Page/blob/main/extensions.png?raw=true)
  
-<h3>It is RESPONSIVE web site</h3>
+<h3>It is a RESPONSIVE web site</h3>
 I used the @media tag element for this part.
