@@ -33,8 +33,8 @@ Steps:<br>
 |auth_password=********|
 |hostname=localhost|
 
-4. Make changes on php.ini file<br>
-To find the right file it is better to open it via: click on wamp -> mouseover the PHP icon and there you will find the right php.ini.
+4. Make changes on the php.ini file<br>
+To find the right file : click on wamp -> mouseover the PHP icon and there you will find the right php.ini.
 
 |Change and Enable these values|Comment out these values|
 |-----|----|
@@ -43,7 +43,8 @@ To find the right file it is better to open it via: click on wamp -> mouseover t
 | |;sendmail_from ="admin@wampserver.invalid"
 
 5.It is important to move your php file on "C:\wamp64\www" , otherwise it will not work.<br>
-6.Make sure that your server have enable ssl and sockets. You will find them on PHP extentions.
+6.Make sure that your server has enabled the PHP extentions  openssl and sockets.
+<img src="extensions.png">
  
 <h3>It is RESPONSIVE web site</h3>
-I use the @media tag element for this part.
+I used the @media tag element for this part.
