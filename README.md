@@ -12,8 +12,21 @@ Then follow the path: Credencials > Create Credencials > Application restriction
 <h3>-Keys from google for recaptcha</h3>
 Follow the link:https://www.google.com/recaptcha/admin/create and at the Domain field add "Localhost". Those keys will use by the web page and on the Server side on PHP.  
 
-<h3>-Email From on PHP that works with WAMP with SMTP server enable</h3>
-
+<h3>-Email From on PHP that works with WAMP with SMTP local server enable</h3>
+Steps:
+1. Create a folder "sendmail" at the path "C:\wamp64\".
+2. Download "sendmail.zip" from https://www.glob.com.au/sendmail/ and extract in on the file your created above.
+3. Make changes on sendmail.ini file 
+<span style="background-color:grey">
+smtp_server=smtp.gmail.com
+smtp_port=465
+smtp_ssl=ssl
+default_domain=localhost
+debug_logfile=debug.log
+auth_username=********
+auth_password=********
+hostname=localhost
+</span>
 
 <br>
 <h1><a href="https://kara710.github.io">Click here</a><h1>
