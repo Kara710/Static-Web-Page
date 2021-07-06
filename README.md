@@ -1,5 +1,6 @@
-This is Static Web site for education purposes. It includes:
-The <b>recaptcha</b> and the <b>email form<b> need to install a server (example WAMP) to work properly.
+This is Static Web site for education purposes. It includes: <br>
+The <b>recaptcha</b> and the <b>email form</b> need to install a server (example WAMP) to work properly.
+<hr>
 <h3>- API for google maps</h3> 
 If you have acount on Google API then follow the bellow link:
 https://console.cloud.google.com/google/maps-apis/overview?project=aerobic-canto-316519&folder=&organizationId=. 
