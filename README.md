@@ -28,7 +28,15 @@ Steps:<br>
 |auth_password=********|<br>
 |hostname=localhost|<br>
  
-|Enable and Change those attributes|CYA|
+|Change and Enable those attributes|CYA|
 |-----|----|
-<br>
+|smtp_server=smtp.gmail.com|
+|smtp_port=465|
+|smtp_ssl=ssl|
+|default_domain=localhost|
+|debug_logfile=debug.log|
+|auth_username=********|
+|auth_password=********|
+|hostname=localhost|
+
 <h1><a href="https://kara710.github.io">Click here</a><h1>
