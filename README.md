@@ -43,13 +43,8 @@ Steps:<br>
 |Change and Enable those attributes|Unenable those atributes|
 |-----|----|
 |sendmail_path ="C:\wamp64\sendmail\sendmail.exe -t -i"|SMTP = localhost
-|smtp_port=465|
-|smtp_ssl=ssl|
-|default_domain=localhost|
-|debug_logfile=debug.log|
-|auth_username=********|
-|auth_password=********|
-|hostname=localhost|
-
+| |smtp_port = 25
+| |sendmail_from ="admin@wampserver.invalid"
+ 
 
 <h1><a href="https://kara710.github.io">Click here</a><h1>
