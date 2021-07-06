@@ -17,20 +17,10 @@ Steps:<br>
 1. Create a folder "sendmail" at the path "C:\wamp64\".<br>
 2. Download "sendmail.zip" from https://www.glob.com.au/sendmail/ and extract in on the file your created above.<br>
 3. Make changes on sendmail.ini file <br>
-|Enable and Change those attributes||
-|:---------------------------------:||
-|smtp_server=smtp.gmail.com|<br>
-|smtp_port=465|<br>
-|smtp_ssl=ssl|<br>
-|default_domain=localhost|<br>
-|debug_logfile=debug.log|<br>
-|auth_username=********|<br>
-|auth_password=********|<br>
-|hostname=localhost|<br>
- 
-|Change and Enable those attributes|CYA|
+
+|Change and Enable those attributes|Unenable those atributes|
 |-----|----|
-|smtp_server=smtp.gmail.com|
+|smtp_server=smtp.gmail.com|; smtp port (normally 25)
 |smtp_port=465|
 |smtp_ssl=ssl|
 |default_domain=localhost|
