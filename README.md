@@ -22,7 +22,7 @@ Steps:<br>
 2. Download "sendmail.zip" from https://www.glob.com.au/sendmail/ and extract it to the folder your created above.<br>
 3. Make changes on sendmail.ini file <br>
 
-|Change and Enable those attributes|Unenable those atributes|
+|Change and Enable these values|Comment out these values|
 |-----|----|
 |smtp_server=smtp.gmail.com|; smtp port (normally 25)
 |smtp_port=465|
@@ -36,7 +36,7 @@ Steps:<br>
 4. Make changes on php.ini file<br>
 To find the right file it is better to open it via: click on wamp -> mouseover the PHP icon and there you will find the right php.ini.
 
-|Change and Enable those attributes|Unenable those atributes|
+|Change and Enable these values|Comment out these values|
 |-----|----|
 |sendmail_path ="C:\wamp64\sendmail\sendmail.exe -t -i"|;SMTP = localhost
 | |;smtp_port = 25
