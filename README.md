@@ -1,5 +1,5 @@
-This is Static Web site for education purposes. <br>
-The <b>recaptcha</b> and the <b>email form</b> work properly only with a server (example WAMP).
+This is a Static Web site for education purposes. <br>
+The <b>recaptcha</b> and the <b>email form</b> will only work with a server (example WAMP).
 
 <h1><a href="https://kara710.github.io">Click here</a></h1>
 <hr>
