@@ -1,5 +1,5 @@
 This is Static Web site for education purposes. It includes: <br>
-The <b>recaptcha</b> and the <b>email form</b> need to install a server (example WAMP) to work properly.
+The <b>recaptcha</b> and the <b>email form</b> work properly only with a server (example WAMP).
 <hr>
 <h3>- API for google maps</h3> 
 If you have acount on Google API then follow the bellow link:
