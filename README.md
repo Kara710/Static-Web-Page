@@ -32,8 +32,8 @@ Steps:<br>
 4. Make changes on php.in file<br>
 |Change and Enable those attributes|Unenable those atributes|
 |-----|----|
-|sendmail_path ="C:\wamp64\sendmail\sendmail.exe -t -i"| |
-| |http://php.net/smtp|
+|sendmail_path ="C:\wamp64\sendmail\sendmail.exe -t -i"| 
+| |http://php.net/smtp
 | |SMTP = localhost|
 | |http://php.net/smtp-port|
 | |smtp_port = 25|
