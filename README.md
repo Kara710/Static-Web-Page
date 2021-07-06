@@ -1,15 +1,15 @@
 This is a Static Web site for education purposes. <br>
-The <b>recaptcha</b> and the <b>email form</b> will only work with a server (example WAMP).
+The <b>recaptcha</b> and the <b>email form</b> will only work with a server (for example WAMP).
 
 <h1><a href="https://kara710.github.io">Click here</a></h1>
 <hr>
-What this site include and what you need to do:
+What this site includes and what you need to do:
 <h3>- API for google maps</h3> 
-If you have acount on Google API then follow the bellow link:
+If you have an acount on Google API then follow the bellow link:
 https://console.cloud.google.com/google/maps-apis/overview?project=aerobic-canto-316519&folder=&organizationId=. 
-Then follow the path: Credencials > Create Credencials > Application restrictions : HTTP referrers (websites) > Website restrictions :<br>
-1. If you have domain name where it is hosted then type the URL. 
-2. In case you run it localy (example with WAMP) just type "Localhost".
+Then follow the path: Credentials > Create Credentials > Application restrictions : HTTP referrers (websites) > Website restrictions :<br>
+1. If you have a domain name hosted in a web server then type the URL. 
+2. In case you want to run it locally (for example with WAMP) just type "localhost".
 
 
 <h3>-Keys from google for recaptcha</h3>
