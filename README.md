@@ -17,16 +17,17 @@ Steps:<br>
 1. Create a folder "sendmail" at the path "C:\wamp64\".<br>
 2. Download "sendmail.zip" from https://www.glob.com.au/sendmail/ and extract in on the file your created above.<br>
 3. Make changes on sendmail.ini file <br>
-<span style="color:blue">
-smtp_server=smtp.gmail.com<br>
-smtp_port=465<br>
-smtp_ssl=ssl<br>
-default_domain=localhost<br>
-debug_logfile=debug.log<br>
-auth_username=********<br>
-auth_password=********<br>
-hostname=localhost<br>
-</span>
+ 
+|--------|
+smtp_server=smtp.gmail.com|<br>
+smtp_port=465|<br>
+smtp_ssl=ssl|<br>
+default_domain=localhost|<br>
+debug_logfile=debug.log|<br>
+auth_username=********|<br>
+auth_password=********|<br>
+hostname=localhost|<br>
+ 
 
 <br>
 <h1><a href="https://kara710.github.io">Click here</a><h1>
