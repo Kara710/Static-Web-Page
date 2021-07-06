@@ -28,6 +28,7 @@ Steps:<br>
 |auth_password=********|<br>
 |hostname=localhost|<br>
  
-
+|Hello|CYA|
+|-----|----|
 <br>
 <h1><a href="https://kara710.github.io">Click here</a><h1>
