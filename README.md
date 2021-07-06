@@ -33,12 +33,12 @@ Steps:<br>
 |Change and enable those atributes|Unable those atributes|
 |---|----|
 |sendmail_path ="C:\wamp64\sendmail\sendmail.exe -t -i"|; For Win32 only.|
-||; http://php.net/smtp|
-||;SMTP = localhost|
-||; http://php.net/smtp-port|
-||;smtp_port = 25|
-||; http://php.net/sendmail-from|
-||;sendmail_from ="admin@wampserver.invalid"|
+| |; http://php.net/smtp|
+| |;SMTP = localhost|
+| |; http://php.net/smtp-port|
+| |;smtp_port = 25|
+| |;http://php.net/sendmail-from|
+| |;sendmail_from ="admin@wampserver.invalid"|
 
 
 
