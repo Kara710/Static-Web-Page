@@ -1,6 +1,7 @@
 body {
-  margin:0; 	
-   }
+	margin:0; 	
+	width:100%;
+}
 html {
   scroll-behavior: smooth;
 }
@@ -43,6 +44,7 @@ html {
 	background-size:cover;
 	background-color:rgba(134,161,144,255);	
 	min-height:60vh;
+	width:100%;
 	display:flex;
  }
 
@@ -55,7 +57,7 @@ html {
 	color:white;
 	text-align:center;
 	margin-left:5%;
-	margin-top:5%;
+	margin-top:10%;
 	font-size:40px;
 	font-style:italic;
 }
@@ -65,22 +67,16 @@ html {
 }
 .left{
 	background-color:white;
-	max-width:45%;
+	max-width:100%;
 	text-align: justify;
-	padding:10px;
-	position:absolute;
-	display:block;
+	padding:10px
 
 }
 .right{
 	background-color:white;
-	max-width:45%;
- 	position:absolute;
-	margin-left:50%;
+	max-width:100%;
 	text-align: justify;
-	padding:10px;
-	position:static;
-	display:block;
+	padding:10px
 
 }
 
@@ -88,54 +84,48 @@ html {
  	background-color:rgba(252,254,253,255);
 	position:static;
 	display:block;
-	max-height:350px;
+	width:100%
+ 
 }
 .CentralProducts{
- 	margin-left:25%;
- 	width:20%;
-	height:350px;
-	padding:5px;
-	position:static;
+ 	width:55%;
 	display:inline-block;
-	float:left;
-	
+	transform:translateY(-27px);
+
 }
 .CentralProducts p:hover{
 	background-color:green;
 	
 }
 .RightProducts{
-	
- 	margin-left:50%;
-	width:auto;
+
+	width:100%;
 	min-height:350px;
 	padding:5px;
 	text-align: justify;
-	position:static;
-	display:block;
 	text-align:center;
 	font-family:italic;
 	font-size:20px;
  
 }
 .LeftProducts{
-	width:25%;
+	width:40%;
 	height:350px;
 	background-image:url("disaster.jpg");
 	background-repeat:no-repeat;
 	background-size:cover;
 	background-position:center;
-	position:absolute;
-	display:block;
 	filter: blur(1px);
-	
+	display:inline-block;
+ 
+
 }
 .CentralProducts p{
- 	padding: 0px;
+ 	padding-bottom:30px;
+	padding-top:30px;
 	font-size: 15px;
 	text-align: center;
-	padding:8%;
- 
+
        
 }
 
@@ -178,12 +168,11 @@ html {
 	color: white;
 }
 .email{
-	width:20%;
+	min-width:50%;
 	height:auto;
  	border:2px solid black; 
 	text-align:left;
-	margin-left:40%;
-	margin-bottom:10px;
+	margin:30px;
 	padding:10px;
  }
 

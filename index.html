@@ -4,7 +4,12 @@
 	<title>Planet</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="smallscreen.css" media="only screen and (max-width: 800px)">
+	
 	<link rel="stylesheet" href="styles.css">
+	
+	<meta charset="UTF-8">
+	<script src="https://www.google.com/recaptcha/api.js" async defer></script>
  
 	
 </head>
@@ -27,12 +32,12 @@
 	
 	</div >
 	<div id="News" class="NewsSection">
-		<span class="left">
+		<div class="left">
 			<h1>News</h1>
 			<h2>Native Trees I Chose for My Arid Southwestern Property</h2>
 			<p>By Renée Benoit<br>What is all too common is people plant their trees too close to the house. They don’t realize how big that cute little tree in the nursery is going to get. We have that problem with a 40-foot Arizona Cypress that is about 3 feet from the foundation of the house. It’s going to be a sad day indeed when we have to cut it down. It was pruned way back on the house side because it rubbed the roof and destroyed shingles and underlayment. Please read up on the attributes of a tree before buying it. Yes, it would be cute to have it next to the house while it’s little but when it’s big you will be sorry.</p>
-		</span>
-		<span class="right">
+		</div>
+		<div class="right">
 			<h2>Live Well with Nature</h2>
 			<p>By Mother Earth News readers<br>
 				My wife, Dianna, and I moved into our newly constructed lake home in late 1995. The land was a blank slate of muddy clay. I loved writing on it. I designed the entire landscape for our yard, first on paper, and then, with plenty of sweat, in the earth.
@@ -40,19 +45,19 @@
 				Dianna’s idea of a perfect landscape was every plant in its own place, with lots of space around each one, which equals lots of mulch — up to 150 bags or more every other year. Still, we spent many summer hours in the yard pulling “weeds,” which, of course, always came right back.
 				Fortunately, I realized right away we didn’t need a sprinkler system — even though everyone else on the block had one — because the ground was 100 percent clay. The grass was happy if I cut it high, and, once established, it didn’t need water, fertilizer, or herbicides. In the 25 years I’ve lived here, the grass has gone brown (dormant) a couple of times, but always comes back as good as ever.
 			</p>
-		</span>
+		</div>
 	</div>
 	
 	<div id="Products">
 		<div class="LeftProducts"> </div>
-		<span class="CentralProducts ">
+		<div class="CentralProducts ">
 			<p id="Atmo">Atmosphere</p>
 			<p id="Disease">Disease</p>
 			<p id="Food">Food scarcity</p>
 			<p id="Natural">Natural disasters</p>
 			
-		</span>
-		<span  class="RightProducts"><p id="textvisible"> </p></span>
+		</div>
+		<div  class="RightProducts"><p id="textvisible"> </p></div>
 	</div>
 
 	<script>
@@ -93,14 +98,31 @@
 		<a href="#" class="fa fa-linkedin"></a> 
 		 
 	</div>
+ 
+ 
 	
-	
-	<iframe id="map"
+	<div class="email" >
+		<form action="http://localhost/WebPage/action.php" method="post" >
+		<h4>Email:</h4>
+		<input type="email" name="email" id="email-input" placeholder="Enter email here…" /><br/>
+		<h4>How can we help you?</h4>
+		<textarea id="description-input" name="data" rows="3" placeholder="Enter your message…"></textarea><br/>
+		
+		<div class="g-recaptcha" data-sitekey="6LeGankbAAAAALY6PKdC1q9mYlJOLs3FrF6zhthv" id="description-input" ></div>
+	 
+		
+ 		<button type="submit"  style="margin-top:20px;" >Submit</button> 
+		</form>
+ 	</div>
+ 
+ 
+	<iframe  id="map"
 	  style="border:0"
 	  loading="lazy"
 	  allowfullscreen
 	  src="https://www.google.com/maps/embed/v1/view?key=AIzaSyBvN7gAzwy77oDXmZB8DvOWPNitDChME-4
 		 &center=51.6180165487737,0.571289062500000&zoom=4&maptype=satellite">
 	</iframe>
+ 
 </body>
 </html>
