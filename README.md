@@ -32,7 +32,7 @@ Steps:<br>
 4. Make changes on php.in file<br>
 |Change and Enable those attributes|Unenable those atributes|
 |-----|----|
-|sendmail_path ="C:\wamp64\sendmail\sendmail.exe -t -i"| For Win32 only.|
+|sendmail_path ="C:\wamp64\sendmail\sendmail.exe -t -i"| |
 | |http://php.net/smtp|
 | |SMTP = localhost|
 | |http://php.net/smtp-port|
@@ -40,7 +40,16 @@ Steps:<br>
 | |http://php.net/sendmail-from|
 | |sendmail_from ="admin@wampserver.invalid"|
 
-
+|Change and Enable those attributes|Unenable those atributes|
+|-----|----|
+|sendmail_path ="C:\wamp64\sendmail\sendmail.exe -t -i"|SMTP = localhost
+|smtp_port=465|
+|smtp_ssl=ssl|
+|default_domain=localhost|
+|debug_logfile=debug.log|
+|auth_username=********|
+|auth_password=********|
+|hostname=localhost|
 
 
 <h1><a href="https://kara710.github.io">Click here</a><h1>
