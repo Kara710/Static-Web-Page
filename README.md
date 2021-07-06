@@ -16,7 +16,7 @@ Then follow the path: Credencials > Create Credencials > Application restriction
 Follow the link:https://www.google.com/recaptcha/admin/create and at the Domain field add "Localhost". Those keys will use by the web page and on the Server side on PHP.<br>
 It is important to move your html and php files on "C:\wamp64\www" , otherwise it will not recognize the key and it will show this error "Invalid domain for site key"<br>
 
-<h3>-Email From on PHP that works with WAMP with SMTP local server enable</h3>
+<h3>-Email From is on PHP and works with WAMP - SMTP local server enable</h3>
 Steps:<br>
 1. Create a folder "sendmail" at the path "C:\wamp64\".<br>
 2. Download "sendmail.zip" from https://www.glob.com.au/sendmail/ and extract in on the file your created above.<br>
